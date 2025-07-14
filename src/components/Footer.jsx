@@ -16,7 +16,7 @@ const Footer = () => {
                         <HiOutlineMail className="w-[var(--spacing-twenty-five)] h-[var(--spacing-twenty-five)]" />
                     </a>
                     <a
-                        href="https://github.com/dennisk94"
+                        href="https://github.com/bomjuk94"
                         target="_blank"
                         rel="noreferrer"
                         className="text-[var(--color-text)] hover:text-[var(--color-primary)] transition duration-150"

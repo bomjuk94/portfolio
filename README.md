@@ -41,4 +41,4 @@ Project is created with:
 
 Bomju (BK) Kim  
 [bomjukim.com](https://bomjukim.com/)  
-[@dennisk94](https://github.com/dennisk94)
+[@bomjuk94](https://github.com/bomjuk94)

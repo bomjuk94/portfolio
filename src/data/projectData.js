@@ -85,8 +85,8 @@ export const projectData = [
         bannerImg: dexquestBannerImg,
         liveUrl: 'https://dex-quest-client.vercel.app/',
         githubUrls: {
-            client: 'https://github.com/dennisk94/DexQuest-Client',
-            server: 'https://github.com/dennisk94/DexQuest-API',
+            client: 'https://github.com/bomjuk94/DexQuest-Client',
+            server: 'https://github.com/bomjuk94/DexQuest-API',
         },
         moreInfo: true,
         overview: "DexQuest is a full-stack Pokémon web app that lets users explore creatures, build custom teams, save favorites, and view detailed stats. While creature data is sourced from the PokéAPI, it’s cached and stored in MongoDB to improve performance, support custom features, and reduce redundant fetches. The project is designed as a living portfolio piece — something technically robust, visually playful, and easily expandable",
@@ -128,7 +128,7 @@ export const projectData = [
         bannerImg: cinephileBannerImg,
         liveUrl: 'https://bomjukim.com/cinephile/',
         githubUrls: {
-            client: 'https://github.com/dennisk94/Cinephile',
+            client: 'https://github.com/bomjuk94/Cinephile',
             server: '',
         },
         moreInfo: true,
@@ -171,7 +171,7 @@ export const projectData = [
         bannerImg: '',
         liveUrl: 'https://bomjukim.com/todo-app/',
         githubUrls: {
-            client: 'https://github.com/dennisk94/Todo-App',
+            client: 'https://github.com/bomjuk94/Todo-App',
             server: '',
         },
         moreInfo: false,
@@ -206,7 +206,7 @@ export const projectData = [
         bannerImg: '',
         liveUrl: 'https://bomjukim.com/hi-low-game/',
         githubUrls: {
-            client: 'https://github.com/dennisk94/Hi-Low',
+            client: 'https://github.com/bomjuk94/Hi-Low',
             server: '',
         },
         moreInfo: false,
@@ -243,7 +243,7 @@ export const projectData = [
         bannerImg: portfolioBannerImg,
         liveUrl: 'https://bomjukim.com/',
         githubUrls: {
-            client: 'https://github.com/dennisk94/portfolio',
+            client: 'https://github.com/bomjuk94/portfolio',
             server: '',
         },
         moreInfo: true,
@@ -286,7 +286,7 @@ export const projectData = [
         bannerImg: '',
         liveUrl: 'https://bomjukim.com/weather-app/',
         githubUrls: {
-            client: 'https://github.com/dennisk94/Weather-app',
+            client: 'https://github.com/bomjuk94/Weather-app',
             server: '',
         },
         moreInfo: false,

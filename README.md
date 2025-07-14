@@ -39,6 +39,6 @@ Project is created with:
 
 ## Author
 
-Dennis Kim  
+Bomju (BK) Kim  
 [bomjukim.com](https://bomjukim.com/)  
 [@dennisk94](https://github.com/dennisk94)

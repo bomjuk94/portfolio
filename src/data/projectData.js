@@ -126,7 +126,6 @@ export const projectData = [
         ],
         thumbnailImg: cinephileThumbnailImg,
         bannerImg: cinephileBannerImg,
-        // TODO: update url
         liveUrl: 'https://bomjukim.com/cinephile/',
         githubUrls: {
             client: 'https://github.com/dennisk94/Cinephile',
@@ -170,7 +169,6 @@ export const projectData = [
         ],
         thumbnailImg: typeScriptToDoThumbnailImg,
         bannerImg: '',
-        // TODO: update url
         liveUrl: 'https://bomjukim.com/todo-app/',
         githubUrls: {
             client: 'https://github.com/dennisk94/Todo-App',
@@ -206,7 +204,6 @@ export const projectData = [
         ],
         thumbnailImg: hiLowThumbnailImg,
         bannerImg: '',
-        // TODO: update url
         liveUrl: 'https://bomjukim.com/hi-low-game/',
         githubUrls: {
             client: 'https://github.com/dennisk94/Hi-Low',
@@ -242,13 +239,11 @@ export const projectData = [
             'All',
             'Frontend',
         ],
-        // TODO: update images
         thumbnailImg: portfolioThumbnailImg,
         bannerImg: portfolioBannerImg,
         liveUrl: 'https://bomjukim.com/',
-        // TODO: Create new repo for portfolio 2025, get images and screenshots, new details too
         githubUrls: {
-            client: 'https://github.com/dennisk94/Portfolio',
+            client: 'https://github.com/dennisk94/portfolio',
             server: '',
         },
         moreInfo: true,
@@ -289,7 +284,6 @@ export const projectData = [
         // TODO: update image to Toronto
         thumbnailImg: weatherAppThumbnailImg,
         bannerImg: '',
-        // TODO: update url
         liveUrl: 'https://bomjukim.com/weather-app/',
         githubUrls: {
             client: 'https://github.com/dennisk94/Weather-app',

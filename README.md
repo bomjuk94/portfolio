@@ -15,7 +15,7 @@ A redesigned portfolio website built from the ground up with React and Vite to s
 
 This portfolio was rebuilt from scratch to reflect my growth as a developer and better highlight the work I'm most proud of. The goal was simplicity, speed, and clarity. Built with modern tools like Vite and Framer Motion, the site now offers smoother transitions, better scalability, and a more polished visual experience.
 
-![portfolio-thumbnail](/src/assets/projects/portfolio/banner-featured.webp)
+![portfolio-thumbnail](/src/assets/projects/portfolio/featured-portfolio.webp)
 
 ## Technologies
 

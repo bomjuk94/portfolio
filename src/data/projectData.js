@@ -21,6 +21,16 @@
     nextLink: string [REQUIRED]
 */
 
+// Digital Garden
+import digitalGardenThumbnailImg from '../assets/projects/digital-garden/featured-digital-garden.webp';
+import digitalGardenBannerImg from '../assets/projects/digital-garden/banner-digital-garden.webp';
+import digitalGardenScreenshot1 from '../assets/projects/digital-garden/screenshots/digital-garden-carousel-1.webp';
+import digitalGardenScreenshot2 from '../assets/projects/digital-garden/screenshots/digital-garden-carousel-2.webp';
+import digitalGardenScreenshot3 from '../assets/projects/digital-garden/screenshots/digital-garden-carousel-3.webp';
+import digitalGardenScreenshot4 from '../assets/projects/digital-garden/screenshots/digital-garden-carousel-4.webp';
+import digitalGardenScreenshot5 from '../assets/projects/digital-garden/screenshots/digital-garden-carousel-5.webp';
+import digitalGardenScreenshot6 from '../assets/projects/digital-garden/screenshots/digital-garden-carousel-6.webp';
+
 // DexQuest
 import dexquestThumbnailImg from '../assets/projects/dexquest/featured-dexquest.webp';
 import dexquestBannerImg from '../assets/projects/dexquest/banner-dexquest.webp';
@@ -53,6 +63,60 @@ import portfolioScreenshot3 from '../assets/projects/portfolio/screenshots/portf
 import weatherAppThumbnailImg from '../assets/projects/weather-app/featured-weather-app.webp';
 
 export const projectData = [
+    {
+        slug: 'digital-garden',
+        title: 'Digital Garden',
+        featured: true,
+        excerpt:
+            'A gamified full-stack experience where users plant seeds, grow virtual crops, and expand their garden. Built with React, TypeScript, Zustand, and MongoDB, Digital Garden explores game mechanics fused with real-time data flow and persistent state.',
+        technologies: [
+            'React',
+            'TypeScript',
+            'Zustand',
+            'React Router',
+            'Vite',
+            'Tailwind CSS',
+            'JWT',
+            'MongoDB',
+            'Node.js/Express.js',
+            'dotenv',
+        ],
+        roles: [
+            'Development',
+            'Architecture',
+            'Design'
+        ],
+        tags: [
+            'All',
+            'Fullstack'
+        ],
+        thumbnailImg: digitalGardenThumbnailImg,
+        bannerImg: digitalGardenBannerImg,
+        liveUrl: 'https://digital-garden-client.vercel.app/',
+        githubUrls: {
+            client: 'https://github.com/bomjuk94/Digital-Garden-Client',
+            server: 'https://github.com/bomjuk94/Digital-Garden-API'
+        },
+        moreInfo: true,
+        overview:
+            'Digital Garden is a full-stack web application that simulates a plant-growing game. Users can collect seeds, plant them, harvest crops, and upgrade their garden over time. The app supports both guest and registered users, each with separate game states. Backend data is persisted via MongoDB, enabling real-time stat tracking and gameplay continuity. The core mechanic revolves around resource management and progression, modeled after idle/clicker-style games.',
+        design:
+            'The interface is clean, minimal, and intentionally modular. It uses soft gradients, plant-themed icons, and cozy visuals to evoke the feel of a calming virtual greenhouse. UI animations give feedback for planting, upgrading, and harvesting, enhancing the game-like loop. Components are responsive and mobile-friendly, while remaining performant on desktop. Guest users can start playing instantly without registration, offering a frictionless entry point.',
+        development:
+            'Digital Garden is built with a React + TypeScript frontend and Node.js + Express backend. Zustand handles state management for both guest and registered modes. All core actions (e.g. planting, harvesting, upgrading) are modularized to support dual game states. MongoDB stores persistent user data, with JWT authentication for secure sessions. The system distinguishes between frontend-only guest data and full backend-registered state, allowing seamless transition between modes. APIs are organized by feature domain, and actions are abstracted into custom hooks and shared utilities.',
+        reflection:
+            'Digital Garden challenged me to architect a clean, scalable system that supports dynamic state across multiple user types. It was my first time handling game logic across both local and persistent data, and debugging that split taught me a lot about React’s lifecycle, Zustand structure, and backend API design. This project reaffirmed my passion for building immersive, interactive apps that merge playful design with strong technical foundations. The flexibility I built into the system opens the door for future expansions like weather systems, tool upgrades, or offline support.',
+        screenshots: [
+            digitalGardenScreenshot1,
+            digitalGardenScreenshot2,
+            digitalGardenScreenshot3,
+            digitalGardenScreenshot4,
+            digitalGardenScreenshot5,
+            digitalGardenScreenshot6,
+        ],
+        prevLink: '/portfolio',
+        nextLink: '/dexquest'
+    },
     {
         slug: 'dexquest',
         title: 'Dexquest',
@@ -99,13 +163,13 @@ export const projectData = [
             dexquestScreenshot3,
             dexquestScreenshot4,
         ],
-        prevLink: '/portfolio',
+        prevLink: '/digital-garden',
         nextLink: '/cinephile'
     },
     {
         slug: 'cinephile',
         title: 'Cinephile',
-        featured: true,
+        featured: false,
         excerpt:
             'A sleek single-page React app for browsing and favoriting movies. Cinephile fetches real-time data from the TMDB API and delivers a responsive, filterable UI with persistent favorites powered by localStorage.',
         technologies: [
@@ -257,7 +321,7 @@ export const projectData = [
             portfolioScreenshot3,
         ],
         prevLink: '/cinephile',
-        nextLink: '/dexquest'
+        nextLink: '/digital-garden'
     },
     {
         slug: 'weather-app',

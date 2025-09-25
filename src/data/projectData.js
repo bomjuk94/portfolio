@@ -92,7 +92,7 @@ export const projectData = [
         ],
         thumbnailImg: digitalGardenThumbnailImg,
         bannerImg: digitalGardenBannerImg,
-        liveUrl: 'https://digital-garden-client.vercel.app/',
+        liveUrl: 'https://digital-garden.bomjukim.com/',
         githubUrls: {
             client: 'https://github.com/bomjuk94/Digital-Garden-Client',
             server: 'https://github.com/bomjuk94/Digital-Garden-API'
@@ -147,7 +147,7 @@ export const projectData = [
         ],
         thumbnailImg: dexquestThumbnailImg,
         bannerImg: dexquestBannerImg,
-        liveUrl: 'https://dex-quest-client.vercel.app/',
+        liveUrl: 'https://dexquest.bomjukim.com/',
         githubUrls: {
             client: 'https://github.com/bomjuk94/DexQuest-Client',
             server: 'https://github.com/bomjuk94/DexQuest-API',
@@ -190,7 +190,7 @@ export const projectData = [
         ],
         thumbnailImg: cinephileThumbnailImg,
         bannerImg: cinephileBannerImg,
-        liveUrl: 'https://bomjukim.com/cinephile/',
+        liveUrl: 'https://cinephile.bomjukim.com/',
         githubUrls: {
             client: 'https://github.com/bomjuk94/Cinephile',
             server: '',
@@ -233,7 +233,7 @@ export const projectData = [
         ],
         thumbnailImg: typeScriptToDoThumbnailImg,
         bannerImg: '',
-        liveUrl: 'https://bomjukim.com/todo-app/',
+        liveUrl: "https://todo-app.bomjukim.com/",
         githubUrls: {
             client: 'https://github.com/bomjuk94/Todo-App',
             server: '',
@@ -268,7 +268,7 @@ export const projectData = [
         ],
         thumbnailImg: hiLowThumbnailImg,
         bannerImg: '',
-        liveUrl: 'https://bomjukim.com/hi-low-game/',
+        liveUrl: 'https://hi-low.bomjukim.com/',
         githubUrls: {
             client: 'https://github.com/bomjuk94/Hi-Low',
             server: '',
@@ -305,7 +305,7 @@ export const projectData = [
         ],
         thumbnailImg: portfolioThumbnailImg,
         bannerImg: portfolioBannerImg,
-        liveUrl: 'https://bomjukim.com/',
+        liveUrl: 'https://www.bomjukim.com/',
         githubUrls: {
             client: 'https://github.com/bomjuk94/portfolio',
             server: '',
@@ -345,10 +345,9 @@ export const projectData = [
             'All',
             'Fun'
         ],
-        // TODO: update image to Toronto
         thumbnailImg: weatherAppThumbnailImg,
         bannerImg: '',
-        liveUrl: 'https://bomjukim.com/weather-app/',
+        liveUrl: 'https://weather-app.bomjukim.com/',
         githubUrls: {
             client: 'https://github.com/bomjuk94/Weather-app',
             server: '',
